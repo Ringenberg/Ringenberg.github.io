@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Setting up github page"
+author: Michael Ringenberg
 date: 2017-03-16
 ---
 
