@@ -1,4 +1,6 @@
 name: Michael Ringenberg
+description: Michael Ringenberg's github blog.
+author: Michael Ringenberg <Ringenberg@users.noreply.github.com>
 permalink: /blog/:year/:month/:day/:title
 gems:
   - jekyll-sitemap
