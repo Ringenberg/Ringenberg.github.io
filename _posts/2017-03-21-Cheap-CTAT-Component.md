@@ -52,9 +52,6 @@ handlers to the button component that reacts to grading events on it.
 For example:
 ```javascript
 $('#SubmitRelationGraph').on('CTAT_CORRECT', function () {
-    $('#reset,#delete').prop('disabled', true);
-    rel_graph.$('*').unselect().lock().unselectify();
-    rel_graph.edgehandles('disable');
     $('#RelationshipGraph').removeClass('CTAT--hint CTAT--incorrect').addClass('CTAT--correct');
 }).on('CTAT_INCORRECT', function () {
     $('#RelationshipGraph').removeClass('CTAT--hint CTAT--correct').addClass('CTAT--incorrect');
