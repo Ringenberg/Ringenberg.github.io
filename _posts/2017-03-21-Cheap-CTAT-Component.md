@@ -1,11 +1,9 @@
 ---
 layout: post
-title: "Cheap custom CTAT components"
+title: "Cheap Way to Make a Custom CTAT component"
 author: Michael Ringenberg
 date: 2017-03-21
 ---
-# Cheap Way to Make a Custom CTAT Component
-
 I started working on a new interface for a Causal Models
 [CTAT](https://github.com/CMUCTAT/CTAT/) tutor in which
 students specify relations between variables using a graph drawing tool:
