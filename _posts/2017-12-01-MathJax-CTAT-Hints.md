@@ -2,7 +2,7 @@
 layout: post
 title: "Getting MathJax to render CTAT hints"
 author: Michael Ringenberg
-date: 2017-07-05
+date: 2017-12-01
 ---
 
 In one of the courses that I am working on has decided to use
