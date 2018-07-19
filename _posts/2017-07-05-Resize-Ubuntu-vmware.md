@@ -2,7 +2,7 @@
 layout: post
 title: "Resizing an Ubuntu virtual machine under VMware Workstation"
 author: Michael Ringenberg
-date: 2017-07-05
+date: 2017-07-05 (updated 2018-07-19)
 ---
 
 Having had trouble finding the instructions I needed to resize the "disk" of 
@@ -10,9 +10,9 @@ my Ubuntu based virtual machine under VMware Workstation 12, I have decided
 to create my own little guide.
 
 Environment and tools:
-* VMware® Workstation 12 Pro 12.5.7
-* Ubuntu 17.04 (upgraded repeatedly from way too long ago)
-* gparted-0.27 (need to update)
+* VMware® Workstation 12 Pro 14.1.2
+* Ubuntu 18.04 (upgraded repeatedly from way too long ago)
+* gparted-0.30 (need to update)
 
 Things to note are that my virtual machine is my main development environment
 that I have been maintaining for years now and I find that I need to give it
@@ -27,7 +27,7 @@ Steps:
   1. Click on the hard drive and then the "Expand" button.
   1. Increase the size to the new desired size.
   1. For the CD/DVD, specify the gparted iso and make sure "connect at powerup" is enabled.
-1. Boot the virtual machine with gparted.
+1. Boot the virtual machine with gparted. This might require using "Power on to Firmware" in order for the iso to boot before the OS.
    1. "deactivate" the partition so that it can be edited.
    1. resize the extended partition to fill the space.
    1. resize the sub-partition to fill the space.
